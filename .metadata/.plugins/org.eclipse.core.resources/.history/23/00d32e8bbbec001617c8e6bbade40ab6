@@ -1,0 +1,46 @@
+package bankingsystem;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args){
+		//fields
+		int userChoice = 0;
+		
+		//creation of objects
+		Bank bank = new Bank("First Premier Bank", "600 falls ave");
+		BankAccount account = new BankAccount(bank, acctNum, amount);
+		Customer customer= new Customer("Bob", "Filligan");
+		
+		//creation of scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		//user options
+		do{
+		System.out.println("1: open account\n2: transfer money\n"
+				+ "3: withdraw money\n4: deposit money\n"
+				+ "5: quit");
+		userChoice = scanner.nextInt();
+		switch (userChoice){
+			case 1: openAccount();//not sure if a switch statement would be best
+					break;
+			
+			case 2: transferMoney();//would have to change to static variable
+					break;
+			
+			case 3: withdrawMoney();
+					break;
+			
+			case 4: depositMoney();
+					break;
+			
+			case 5: break;
+			
+			default: System.out.println("Please enter a number 1-5.");
+			
+			}//end switch
+		}//end do
+		while (userChoice!='5');	
+		}//end while
+	}//end main
+
+}

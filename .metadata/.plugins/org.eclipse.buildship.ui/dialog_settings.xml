@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="CoffeeGame"/>
+		<item value="CG"/>
+	</list>
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item value="VERSION" key="gradle_distribution_type"/>
+		<item value="true" key="apply_working_sets"/>
+		<item value="3.5" key="gradle_distribution_configuration"/>
+		<item value="/Users/Kurtis/Desktop/controlsfx-8 10.45.19 AM" key="project_location"/>
+		<list key="working_sets">
+			<item value="CoffeeGame"/>
+		</list>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item value="false" key="use_default_location"/>
+		<item value="/Users/Kurtis/Desktop/controlsfx-8" key="custom_location"/>
+		<item value="/Users/Kurtis/Desktop/controlsfx-8/CoffeeGaming" key="project_location"/>
+	</section>
+</section>

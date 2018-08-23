@@ -1,0 +1,115 @@
+package bankingsystem;
+import java.util.Scanner;
+
+public class Customer {
+	//fields and constants
+	public static final int MAX_ACCTS = 10;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private BankAccount[] accounts = new BankAccount[MAX_ACCTS];
+    private int i = 0;
+    //end fields and constants
+
+//start getters and setters
+public String getFirstName() {
+	return firstName;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public BankAccount[] getAccounts() {
+	return accounts;
+}
+
+public void setAccounts(BankAccount[] accounts) {
+	this.accounts = accounts;
+}
+
+//end getters and setters
+
+public Customer(String fName, String lName){//constructor 
+		firstName = fName;
+		lastName = lName;
+}
+
+public void openAccount(Bank b, double amount){
+//create a new bank object and add it to the array memory allocation
+		BankAccount account = new BankAccount(b, 0, amount);
+		accounts[MAX_ACCTS] = account;
+		
+}
+
+public void transferMoney(int fromBankNum, int fromAcctNum, 
+int toBankNum, int toAcctNum, double amount){
+	
+}
+
+public void withdrawMoney(int fromBankNum, int fromAcctNum, 
+double amount){
+	//subtracting currency and adding to amount
+	amount = fromBankNum - fromAcctNum;
+}
+
+public void depositMoney(int toBankNum, int toAcctNum, 
+		double amount){
+	//adding currency and adding to amount
+	amount = toBankNum + toAcctNum;
+}
+
+public static void main(String[] args) {
+	//creation of an object, passing first and last name
+	Customer customer= new Customer("Bob", "Filligan");
+	
+	//creation of new scanner
+	Scanner scanner = new Scanner(System.in);
+	
+	//fields
+	int userChoice = 0;
+	
+	//user options
+	do{
+	System.out.println("1: open account\n2: transfer money\n"
+			+ "3: withdraw money\n4: deposit money\n"
+			+ "5: quit");
+	userChoice = scanner.nextInt();
+	switch (userChoice){
+		case 1: openAccount();//not sure if a switch statement would be best
+				break;
+		
+		case 2: transferMoney();//would have to change to static variable
+				break;
+		
+		case 3: withdrawMoney();
+				break;
+		
+		case 4: depositMoney();
+				break;
+		
+		case 5: break;
+		
+		default: System.out.println("Please enter a number 1-5.");
+		
+		}//end switch
+	}//end do
+	while (userChoice!='5');	
+	}//end while
+}//end class

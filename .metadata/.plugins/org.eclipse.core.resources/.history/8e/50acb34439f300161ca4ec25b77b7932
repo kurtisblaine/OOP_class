@@ -1,0 +1,92 @@
+package bankingsystem;
+
+public class Bank {
+	//start fields
+	private String bankName;
+    private String bankNumber = "0";
+    private String address;
+    private BankAccount[] allAccounts = new BankAccount[1000];
+    public static String c = "10";
+    //end fields
+    
+    //start getters and setters
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	public String getBankNumber() {
+		return bankNumber;
+	}
+	public void setBankNumber(String bankNumber) {
+		this.bankNumber = bankNumber;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public BankAccount[] getAllAccounts() {
+		return allAccounts;
+	}
+	public void setAllAccounts(BankAccount[] allAccounts) {
+		this.allAccounts = allAccounts;
+	}
+    //end getters and setters
+    
+	//start constructor 
+	public Bank(String name, String address){
+		this.bankName = name;
+		this.address = address;
+	
+		//transfer the string to an integer
+		Integer.parseInt(bankNumber);
+		
+		//setting a unique value to static variable and 
+		//setting it to bankNumber
+		bankNumber = c;
+		c = c + 10;
+	
+		//printing to console using toString method
+		System.out.printf("%s", this);
+	}//end constructor
+	
+	public BankAccount createAccount(Customer customer, 
+			double amount){
+		//local variables
+		String first, last;
+		
+		//new bank object without going over the array length
+		for(int i = 0; i != allAccounts.length; i++){
+		Bank bank = new Bank(getBankName(), getAddress());
+		}
+		
+		//assign a bank number to new account
+		first = customer.getFirstName();
+		last = customer.getLastName();
+		
+		
+		//printing out details of new account
+		System.out.println("Your new account information is as follows:\n"
+				+ first + " "+ last + ": Bank Number: " + bankNumber + 
+				" Amount: $" + amount);
+		
+		return createAccount(customer, amount);
+	}
+	
+	//toString method testing implementation
+		 public String toString() {
+		        String result = this.getBankName() + " " + this.getBankNumber() + "\n" ;
+		        
+		        if (!this.getAddress().isEmpty()) {
+		            result = result + this.getAddress() + "\n";
+		        }
+		        
+		        return result;
+		 }
+	
+}//end class
+	
+

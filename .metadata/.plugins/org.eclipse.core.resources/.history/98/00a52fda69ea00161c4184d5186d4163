@@ -1,0 +1,85 @@
+package bankingsystem;
+
+public class Customer {
+	//fields and constants
+	public static final int MAX_ACCTS = 10;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private BankAccount[] accounts = new BankAccount[MAX_ACCTS];
+    //end fields and constants
+
+//start getters and setters
+public String getFirstName() {
+	return firstName;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public BankAccount[] getAccounts() {
+	return accounts;
+}
+
+public void setAccounts(BankAccount[] accounts) {
+	this.accounts = accounts;
+}
+//end getters and setters
+
+public Customer(String fName, String lName){//constructor 
+	fName = firstName;
+	lName = lastName;
+}
+
+public void openAccount(Bank b, double amount){
+	
+}
+
+public void transferMoney(int fromBankNum, int fromAcctNum, 
+int toBankNum, int toAcctNum, double amount){
+	
+}
+
+public void withdrawMoney(int fromBankNum, int fromAcctNum, 
+double amount){
+	
+}
+
+public void depositMoney(int toBankNum, int toAcctNum, 
+		double amount){
+	
+}
+
+public static void main(String[] args) {
+	//creation of an object, passing first and last name
+	Customer c1= new Customer("Bob", "Filligan");
+	System.out.println("1 to open account\n 2 to transfer money\n"
+			+ "3 to withdraw money\n 4 to deposit money\n "
+			+ "0 to quit");
+	//switch
+	//	case 1: System.out.println("")
+}
+
+}//end class
+
+
+
+
+

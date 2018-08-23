@@ -1,0 +1,91 @@
+package bankingsystem;
+
+public class Bank {
+	//start fields
+	private String bankName;
+    private String bankNumber;
+    private String address;
+    private static BankAccount[] allAccounts = new BankAccount[1000];
+    public static int c = 0;
+    //end fields
+    
+    //start getters and setters
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	public String getBankNumber() {
+		return bankNumber;
+	}
+	public void setBankNumber(String bankNumber) {
+		this.bankNumber = bankNumber;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public static BankAccount[] getAllAccounts() {
+		return allAccounts;
+	}
+	public void setAllAccounts(BankAccount[] allAccounts) {
+		this.allAccounts = allAccounts;
+	}
+    //end getters and setters
+    
+	//start constructor 
+	public Bank(String name, String address){
+		this.bankName = name;
+		this.address = address;
+		
+		//transfer the string to an integer
+		c = 1;
+		c = Integer.parseInt(bankNumber);
+		
+		//incrementing static variable and setting it to bankNumber
+		c += c;
+	
+		//printing to console using toString method
+		System.out.printf("The Bank constructor: "
+				+ "%s with the "
+				+ "value of %d\n", this, c);
+	}//end constructor
+	
+	public BankAccount createAccount(Customer customer, 
+			double amount){
+		//local variables
+		String first, last;
+		
+		//new bank object without going over the array length
+		for(int i = 0; i != allAccounts.length; i++){
+		Bank bank = new Bank(getBankName(), getAddress());
+		}
+		
+		//assign a bank number to new account
+		first = customer.getFirstName();
+		last = customer.getLastName();
+		
+		//string to integer
+		Integer.parseInt(bankNumber);
+		
+		//assign the money value to the array
+		
+		
+		//printing out details of new account
+		System.out.println("Your new account information is as follows:\n"
+				+ first + " "+ last + ": Bank Number: " + bankNumber + "Amount: $" + amount);
+		
+		return createAccount(customer, amount);
+	}
+	
+	//toString method testing implementation
+	public String toString(){
+		return String.format("%s %s", bankName, address);
+	}
+	
+}//end class
+	
+

@@ -1,0 +1,57 @@
+package bankingsystem;
+
+public class Bank {
+	//start fields
+	private String bankName;
+    private String bankNumber;
+    private String address;
+    private BankAccount[] allAccounts = new BankAccount[1000];
+    //end fields
+    
+    //start getters and setters
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	public String getBankNumber() {
+		return bankNumber;
+	}
+	public void setBankNumber(String bankNumber) {
+		this.bankNumber = bankNumber;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public BankAccount[] getAllAccounts() {
+		return allAccounts;
+	}
+	public void setAllAccounts(BankAccount[] allAccounts) {
+		this.allAccounts = allAccounts;
+	}
+    //end getters and setters
+    
+	//constructor
+	public Bank(String name, String address){
+		this.bankName = name;
+		this.address = address;
+	}
+	//constructor
+	
+	public BankAccount createAccount(Customer customer, 
+			double amount){
+		
+				return null;
+	}
+	
+	
+	public static void main(String[]args){
+		Bank b1 = new Bank("First Premier", "600 falls ave");
+	}//end main
+	}//end class
+	
+

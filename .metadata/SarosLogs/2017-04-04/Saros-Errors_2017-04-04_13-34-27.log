@@ -1,0 +1,15 @@
+WARN  2017-04-04 13:34:27,002 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /172.22.100.113:0
+WARN  2017-04-04 13:39:11,849 (EditorAPI.java:298) could not get resource reference from editor part: org.eclipse.ui.internal.browser.WebBrowserEditor@ef21eba
+WARN  2017-04-04 13:39:11,852 (EditorAPI.java:298) could not get resource reference from editor part: org.eclipse.ui.internal.browser.WebBrowserEditor@ef21eba
+WARN  2017-04-04 13:43:02,268 (EditorAPI.java:298) could not get resource reference from editor part: org.eclipse.ui.internal.browser.WebBrowserEditor@ef21eba
+ERROR 2017-04-04 13:47:07,668 (XMPPConnectionService.java:400)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:276)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:332)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:190)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:201)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2017-04-04 13:47:20,100 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /172.22.100.113:0

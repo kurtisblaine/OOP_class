@@ -1,0 +1,196 @@
+INFO  2017-04-06 19:59:22,914 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_112
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.12.0.v20160606-1342
+  Operating System: Mac OS X (10.12.3)
+  Hardware Architecture: x86_64
+INFO  2017-04-06 19:59:22,995 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2017-04-06 19:59:23,049 (XMPPAccountStore.java:117) loading accounts from file: /Users/Kurtis/.saros/config.dat
+DEBUG 2017-04-06 19:59:23,266 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2017-04-06 19:59:23,492 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2017-04-06 19:59:23,526 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2017-04-06 19:59:23,554 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2017-04-06 19:59:23,606 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2017-04-06 19:59:23,617 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2017-04-06 19:59:31,823 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2017-04-06 19:59:31,849 (DocumentRecord.java:93) Added Node: attr(149152677184499261) name=svg
+DEBUG 2017-04-06 19:59:32,347 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2017-04-06 19:59:32,350 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.0.11, fe80:0:0:0:c9d5:2d77:c9db:5d8f%utun1, fdea:e86a:2f6e:c33d:48c3:b8cf:f9db:419b, fe80:0:0:0:48c3:b8cf:f9db:419b%utun0, fe80:0:0:0:64e5:97ff:fe7e:79e0%awdl0, 2001:48f8:2c:1372:0:0:0:2, 2001:48f8:2c:1372:ade4:99f4:287c:af75, 2001:48f8:2c:1372:8b1:cf3d:ea40:598a, fe80:0:0:0:144e:c2d1:1401:b49d%en0]
+DEBUG 2017-04-06 19:59:32,359 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2017-04-06 19:59:37,118 (XMPPConnectionService.java:398) kurtisblaine@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2017-04-06 19:59:37,118 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2017-04-06 19:59:37,121 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2017-04-06 19:59:41,620 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: yli23797@saros-con.imp.fu-berlin.de/Saros
+WARN  2017-04-06 19:59:42,397 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.0.11:0
+DEBUG 2017-04-06 19:59:54,041 (XMPPConnectionService.java:398) kurtisblaine@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2017-04-06 19:59:54,197 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2017-04-06 20:01:40,449 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2017-04-06 20:01:41,203 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2017-04-06 20:01:41,204 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.0.11, fe80:0:0:0:c9d5:2d77:c9db:5d8f%utun1, fdea:e86a:2f6e:c33d:48c3:b8cf:f9db:419b, fe80:0:0:0:48c3:b8cf:f9db:419b%utun0, fe80:0:0:0:64e5:97ff:fe7e:79e0%awdl0, 2001:48f8:2c:1372:0:0:0:2, 2001:48f8:2c:1372:ade4:99f4:287c:af75, 2001:48f8:2c:1372:8b1:cf3d:ea40:598a, fe80:0:0:0:144e:c2d1:1401:b49d%en0]
+DEBUG 2017-04-06 20:01:41,204 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2017-04-06 20:01:46,144 (XMPPConnectionService.java:398) kurtisblaine@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2017-04-06 20:01:46,144 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2017-04-06 20:01:46,146 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2017-04-06 20:01:49,277 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: yli23797@saros-con.imp.fu-berlin.de/Saros
+WARN  2017-04-06 20:01:52,097 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.0.11:0
+DEBUG 2017-04-06 20:02:00,216 (BaseResourceSelectionComposite.java:174) I got the names from the list: 1
+DEBUG 2017-04-06 20:02:00,561 (BaseResourceSelectionComposite.java:150) Remembered checked/grayed items: 53/0 Saved 1 snapshots
+DEBUG 2017-04-06 20:02:11,469 (BaseResourceSelectionComposite.java:272) Storing checked elements (not grayed): /CoffeeGame**#**/CoffeeGame/.settings**#**/CoffeeGame/.settings/org.eclipse.jdt.core.prefs**#**/CoffeeGame/bin**#**/CoffeeGame/bin/ch**#**/CoffeeGame/bin/ch/makery**#**/CoffeeGame/bin/ch/makery/coffee**#**/CoffeeGame/bin/ch/makery/coffee/view**#**/CoffeeGame/bin/ch/makery/coffee/view/HighScores.fxml**#**/CoffeeGame/bin/ch/makery/coffee/view/HighScoresController.class**#**/CoffeeGame/bin/ch/makery/coffee/view/MainMenu.fxml**#**/CoffeeGame/bin/ch/makery/coffee/view/MainMenuController.class**#**/CoffeeGame/bin/ch/makery/coffee/view/NewGame.fxml**#**/CoffeeGame/bin/ch/makery/coffee/view/NewGameController.class**#**/CoffeeGame/bin/ch/makery/coffee/view/RootLayout.fxml**#**/CoffeeGame/bin/ch/makery/coffee/view/RootLayoutController.class**#**/CoffeeGame/bin/ch/makery/coffee/view/style.css**#**/CoffeeGame/bin/ch/makery/coffee/.DS_Store**#**/CoffeeGame/bin/ch/makery/coffee/Main.class**#**/CoffeeGame/bin/ch/makery/.DS_Store**#**/CoffeeGame/bin/ch/.DS_Store**#**/CoffeeGame/bin/.DS_Store**#**/CoffeeGame/resources**#**/CoffeeGame/resources/images**#**/CoffeeGame/resources/images/beans.jpeg**#**/CoffeeGame/resources/images/CoffeeEmpty.png**#**/CoffeeGame/resources/images/CoffeeFull.png**#**/CoffeeGame/resources/images/CoffeeShop.jpg**#**/CoffeeGame/resources/images/Starbucks_Book.png**#**/CoffeeGame/resources/images/Trash.png**#**/CoffeeGame/src**#**/CoffeeGame/src/ch**#**/CoffeeGame/src/ch/makery**#**/CoffeeGame/src/ch/makery/coffee**#**/CoffeeGame/src/ch/makery/coffee/view**#**/CoffeeGame/src/ch/makery/coffee/view/HighScores.fxml**#**/CoffeeGame/src/ch/makery/coffee/view/HighScoresController.java**#**/CoffeeGame/src/ch/makery/coffee/view/MainMenu.fxml**#**/CoffeeGame/src/ch/makery/coffee/view/MainMenuController.java**#**/CoffeeGame/src/ch/makery/coffee/view/NewGame.fxml**#**/CoffeeGame/src/ch/makery/coffee/view/NewGameController.java**#**/CoffeeGame/src/ch/makery/coffee/view/RootLayout.fxml**#**/CoffeeGame/src/ch/makery/coffee/view/RootLayoutController.java**#**/CoffeeGame/src/ch/makery/coffee/view/style.css**#**/CoffeeGame/src/ch/makery/coffee/.DS_Store**#**/CoffeeGame/src/ch/makery/coffee/Main.java**#**/CoffeeGame/src/ch/makery/.DS_Store**#**/CoffeeGame/src/ch/.DS_Store**#**/CoffeeGame/src/.DS_Store**#**/CoffeeGame/.classpath**#**/CoffeeGame/.DS_Store**#**/CoffeeGame/.project**#**/CoffeeGame/build.fxbuild**#**
+DEBUG 2017-04-06 20:02:11,471 (BaseResourceSelectionComposite.java:184) Remembering new selection name: -Last selection-
+DEBUG 2017-04-06 20:02:11,471 (BaseResourceSelectionComposite.java:174) I got the names from the list: 1
+DEBUG 2017-04-06 20:02:11,472 (BaseResourceSelectionComposite.java:190) Not adding name to list because already exists: -Last selection-
+INFO  2017-04-06 20:02:11,558 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2017-04-06 20:02:11,574 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2017-04-06 20:02:11,903 (StatisticManager.java:163) Session count: 3
+INFO  2017-04-06 20:02:11,904 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2017-04-06 20:02:11,905 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2017-04-06 20:02:11,907 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-04-06 20:02:11,908 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-04-06 20:02:12,075 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2017-04-06 20:02:12,075 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2017-04-06 20:02:12,076 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@262b8731 - P/CoffeeGame with ID 2035758 [completely shared:true]
+DEBUG 2017-04-06 20:02:12,158 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2017-04-06 20:02:12,158 (SarosSessionManager.java:262) session started
+DEBUG 2017-04-06 20:02:12,178 (OutgoingSessionNegotiation.java:122) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2017-04-06 20:02:12,181 (OutgoingSessionNegotiation.java:223) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2017-04-06 20:02:12,182 (OutgoingSessionNegotiation.java:235) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2017-04-06 20:02:12,182 (OutgoingSessionNegotiation.java:253) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2017-04-06 20:02:13,545 (OutgoingSessionNegotiation.java:284) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2017-04-06 20:02:13,545 (OutgoingSessionNegotiation.java:298) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2017-04-06 20:02:13,547 (OutgoingSessionNegotiation.java:314) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2017-04-06 20:02:14,122 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2017-04-06 20:02:14,128 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2017-04-06 20:02:14,624 (OutgoingSessionNegotiation.java:325) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2017-04-06 20:02:14,625 (OutgoingSessionNegotiation.java:334) OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2017-04-06 20:02:14,626 (MultiUserChat.java:310) Configuring room
+DEBUG 2017-04-06 20:02:15,473 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1886428531 Password -955059890
+DEBUG 2017-04-06 20:02:15,692 (MultiUserChatStateManager.java:101) Incoming Message from saros_1886428531@conference.saros-con.imp.fu-berlin.de/kurtisblaine@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-04-06 20:02:15,692 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-04-06 20:02:15,693 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-04-06 20:02:46,422 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2017-04-06 20:02:46,425 (CancelableProcess.java:156) process OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: none
+DEBUG 2017-04-06 20:02:46,704 (CancelableProcess.java:401) process OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] was cancelled manually by the local user
+DEBUG 2017-04-06 20:02:46,705 (SessionNegotiation.java:127) notifying remote contact yli23797@saros-con.imp.fu-berlin.de/Saros of the local cancellation
+DEBUG 2017-04-06 20:02:46,705 (CancelableProcess.java:349) executing cancellation for process OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-06 20:02:46,736 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2017-04-06 20:02:46,739 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2017-04-06 20:02:46,740 (FeedbackManager.java:104) Session lasted 0 min 34 s
+DEBUG 2017-04-06 20:02:46,741 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2017-04-06 20:02:46,744 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2017-04-06 20:02:46,753 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_112
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Mac OS X
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2017-04-04_14-03-05_84242874
+  role.1.duration=0.58
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=0.58
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=3
+  session.id=1886428531
+  session.local.start=2017-04-07T01:02:46Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=100
+  session.time.users.1=0.58
+  session.time=0.58
+  session.users.total=1
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2017-04-06 20:02:46,753 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2017-04-06 20:02:46,776 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-04-06 20:02:46,777 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-04-06 20:02:46,778 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-04-06 20:02:46,789 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@2bbd668c
+DEBUG 2017-04-06 20:02:47,636 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2017-04-06 20:02:47,637 (DocumentRecord.java:93) Added Node: attr(149152696763737952) name=svg
+INFO  2017-04-06 20:02:47,638 (SarosSessionManager.java:351) session stopped
+DEBUG 2017-04-06 20:02:47,638 (CancelableProcess.java:353) process OSN [remote side: yli23797@saros-con.imp.fu-berlin.de/Saros] exit status: CANCEL
+DEBUG 2017-04-06 20:07:08,294 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2017-04-06 21:06:10,450 (XMPPConnectionService.java:398) kurtisblaine@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+WARN  2017-04-06 21:06:10,453 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@907f004, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2017-04-06 21:06:10,458 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@3761eaa1, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:126)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2017-04-06 21:06:10,459 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@1469b36b, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2017-04-06 21:06:10,460 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@3d6c830, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:126)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2017-04-06 21:06:10,613 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2017-04-06 21:06:10,613 (UPnPServiceImpl.java:295) deleting existing port mappings

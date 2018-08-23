@@ -1,0 +1,8 @@
+package bankingsystem;
+
+public class Main {
+	public static void main(String[] args){
+		Bank bank = new Bank("First Bank", "An address");
+		Bank bank2 = new Bank("Another Bank", "Another address");
+	}
+}

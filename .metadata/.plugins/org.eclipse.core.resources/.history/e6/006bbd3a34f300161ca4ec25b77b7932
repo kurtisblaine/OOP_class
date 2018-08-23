@@ -1,0 +1,117 @@
+package bankingsystem;
+
+public class Customer {
+	//fields and constants
+	public static final int MAX_ACCTS = 10;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private BankAccount[] accounts = new BankAccount[MAX_ACCTS];
+    //end fields and constants
+
+//start getters and setters
+public String getFirstName() {
+	return firstName;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public BankAccount[] getAccounts() {
+	return accounts;
+}
+
+public void setAccounts(BankAccount[] accounts) {
+	this.accounts = accounts;
+}
+//end getters and setters
+
+public Customer(String fName, String lName){//constructor
+		//local counter variable
+		int counter = 0;
+	
+			firstName = fName;
+			lastName = lName;
+	
+		//increment counter by one each time customer is constructed
+		counter = counter + 1;
+		
+			if(counter == MAX_ACCTS){
+				System.out.println("Your account could not be created!");
+			}
+			
+		System.out.printf("The Customer Constructor: %s\n", this);
+		}	
+
+public void openAccount(Bank b, double amount){
+//print the account and account information
+		System.out.println("Bank Name: " + b.getBankName() + "\nBank Address: "
+				+ b.getAddress() + "\nBank Number: " + b.getBankNumber() +
+				"Amount: $" + amount);
+}
+
+public void transferMoney(int fromBankNum, int fromAcctNum, 
+int toBankNum, int toAcctNum, double amount){
+	//account for the user transferring money to same account
+	if(fromBankNum == toBankNum){
+		System.out.println("You cannot transfer to the same account!");
+	}
+	else{
+		//subtracting from account transferring
+		fromBankNum = fromAcctNum = toAcctNum;
+		
+		//add to account being transferred to
+		toAcctNum += fromBankNum;
+		
+		//adding to amount
+		amount = toAcctNum;
+	}
+}
+
+public void withdrawMoney(int fromBankNum, int fromAcctNum, 
+double amount){
+	//accounting for negative value
+	if(amount <= 0){
+		System.out.println("The amount withdrawn should be positive.");
+	}
+	else{
+			//subtracting currency and adding to amount
+			amount = fromBankNum - fromAcctNum;
+	}
+}
+
+public void depositMoney(int toBankNum, int toAcctNum, 
+		double amount){
+		//accounting for negative value
+		if(amount <= 0){
+			System.out.println("The amount deposited should be positive.");
+		}
+		else{
+			//adding currency and adding to amount
+			amount = toBankNum + toAcctNum;
+		}
+	}		
+
+//toString method testing implementation
+	public String toString(){
+		return String.format("%s %s", firstName, lastName);
+	}
+	
+}//end class

@@ -1,0 +1,9 @@
+package bankingsystem;
+
+public class Main {
+	public static void main(String[] args){
+		Bank bank = new Bank("First Premier Bank", "600 falls ave");
+		
+	}//end main
+
+}

@@ -1,0 +1,84 @@
+package bankingsystem;
+
+public class Customer {
+	//fields and constants
+	public static final int MAX_ACCTS = 10;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private BankAccount[] accounts = new BankAccount[MAX_ACCTS];
+    private int i = 0;
+    //end fields and constants
+
+//start getters and setters
+public String getFirstName() {
+	return firstName;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public BankAccount[] getAccounts() {
+	return accounts;
+}
+
+public void setAccounts(BankAccount[] accounts) {
+	this.accounts = accounts;
+}
+
+//end getters and setters
+
+public Customer(String fName, String lName){//constructor 
+		firstName = fName;
+		lastName = lName;
+		
+		System.out.printf("The Customer Constructor: \n", this);
+}
+
+public void openAccount(Bank b, double amount){
+//create a new bank object and add it to the array memory allocation
+		BankAccount account = new BankAccount(b, 0, amount);
+		accounts[MAX_ACCTS] = account;
+		
+}
+
+public void transferMoney(int fromBankNum, int fromAcctNum, 
+int toBankNum, int toAcctNum, double amount){
+	
+}
+
+public void withdrawMoney(int fromBankNum, int fromAcctNum, 
+double amount){
+	//subtracting currency and adding to amount
+	amount = fromBankNum - fromAcctNum;
+}
+
+public void depositMoney(int toBankNum, int toAcctNum, 
+		double amount){
+	//adding currency and adding to amount
+	amount = toBankNum + toAcctNum;
+	}		
+
+//toString method testing implementation
+	public String toString(){
+		return String.format("%s %s", firstName, lastName);
+	}
+	
+}//end class

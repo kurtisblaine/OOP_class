@@ -1,0 +1,100 @@
+package bankingsystem;
+
+public class Customer {
+	//fields and constants
+	public static final int MAX_ACCTS = 10;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private BankAccount[] accounts = new BankAccount[MAX_ACCTS];
+    //end fields and constants
+
+//start getters and setters
+public String getFirstName() {
+	return firstName;
+}
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public BankAccount[] getAccounts() {
+	return accounts;
+}
+
+public void setAccounts(BankAccount[] accounts) {
+	this.accounts = accounts;
+}
+//end getters and setters
+
+public Customer(String fName, String lName){//constructor
+		//checking for amount of accounts
+	
+			firstName = fName;
+			lastName = lName;
+		
+		//set the initial address to empty string
+		//BankAccount accounts[] = ;
+		
+		System.out.printf("The Customer Constructor: %s\n", this);
+		}	
+
+
+public void openAccount(Bank b, double amount){
+//view the account and account information
+		BankAccount account = new BankAccount(b, 0, amount);
+		accounts[MAX_ACCTS] = account;
+		
+}
+
+public void transferMoney(int fromBankNum, int fromAcctNum, 
+int toBankNum, int toAcctNum, double amount){
+	
+}
+
+public void withdrawMoney(int fromBankNum, int fromAcctNum, 
+double amount){
+	//accounting for negative value
+	if(amount <= 0){
+		System.out.println("The amount withdrawn should be positive.");
+	}
+	else{
+			//subtracting currency and adding to amount
+			amount = fromBankNum - fromAcctNum;
+	}
+}
+
+public void depositMoney(int toBankNum, int toAcctNum, 
+		double amount){
+		//accounting for negative value
+		if(amount <= 0){
+			System.out.println("The amount deposited should be positive.");
+		}
+		else{
+			//adding currency and adding to amount
+			amount = toBankNum + toAcctNum;
+		}
+	}		
+
+//toString method testing implementation
+	public String toString(){
+		return String.format("%s %s", firstName, lastName);
+	}
+	
+}//end class

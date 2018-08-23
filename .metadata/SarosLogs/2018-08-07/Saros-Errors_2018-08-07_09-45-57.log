@@ -1,0 +1,1 @@
+WARN  2018-08-07 09:45:57,352 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/67.227.226.240:3478 at local address /192.168.0.11:0

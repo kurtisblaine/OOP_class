@@ -1,0 +1,64 @@
+package bankingsystem;
+public class BankAccount {
+	
+	//start fields
+	private Customer customer;
+    private int acctNum;
+    private double amount;
+    private Bank bank;
+    //end fields
+    
+    //start getters and setters
+	public Customer getCustomer() {
+		return customer;
+	}
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	public int getAcctNum() {
+		return acctNum;
+	}
+	public void setAcctNum(int acctNum) {
+		this.acctNum = acctNum;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public Bank getBank() {
+		return bank;
+	}
+	public void setBank(Bank bank) {
+		this.bank = bank;
+	}//end getters and setters
+  
+	//constructor setting the values to object
+	public BankAccount(Bank bank, int acctNum, double amount){
+		//passing parameters through constructor of object
+		this.bank = bank;
+		this.acctNum = acctNum;
+		this.amount = amount;
+		
+		System.out.printf("The Bank Account constructor: %s\n", this);
+	}//end constructor
+	
+	public String getBankName(){
+		//calling to bank object constructor and returning 
+		//bank name
+		return bank.getBankName();
+	}
+	
+	public String getBankNumber(){
+		//calling to bank object and returning 
+		//bank number
+		return bank.getBankNumber();
+	}
+	
+	//toString method testing implementation
+		public String toString(){
+			return String.Format("%s", bank);
+		}
+		
+}//end class

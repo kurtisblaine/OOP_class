@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="pane" prefHeight="500.0" prefWidth="700.0"
+	stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ch.makery.coffee.view.NewGameController">
+	<children>
+		<HBox layoutY="259.0" prefHeight="165.0" prefWidth="700.0"
+			AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="0.0"
+			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="259.0">
+			<children>
+				<VBox alignment="TOP_RIGHT" prefHeight="165.0" prefWidth="155.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button alignment="BOTTOM_CENTER" mnemonicParsing="false"
+							onAction="#handleEmptyCups" prefHeight="31.0" prefWidth="99.0"
+							text="Empty Cups">
+							<cursor>
+								<Cursor fx:constant="DEFAULT" />
+							</cursor>
+						</Button>
+					</children>
+				</VBox>
+				<VBox alignment="TOP_CENTER" prefHeight="154.0" prefWidth="139.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button mnemonicParsing="false" onAction="#handleCoffee"
+							text="Coffee" />
+					</children>
+				</VBox>
+				<VBox alignment="CENTER" prefHeight="154.0" prefWidth="118.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button alignment="CENTER" contentDisplay="CENTER"
+							mnemonicParsing="false" onAction="#handleIce" prefHeight="25.0"
+							prefWidth="66.0" text="Ice" textAlignment="CENTER" />
+					</children>
+				</VBox>
+				<VBox alignment="CENTER_LEFT" prefHeight="154.0" prefWidth="110.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button alignment="CENTER" contentDisplay="CENTER"
+							mnemonicParsing="false" onAction="#handleMilk" prefHeight="27.0"
+							prefWidth="63.0" text="Milk" textAlignment="CENTER" />
+					</children>
+				</VBox>
+				<VBox prefHeight="165.0" prefWidth="140.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button mnemonicParsing="false" onAction="#handleEspresso"
+							text="Espresso" />
+					</children>
+				</VBox>
+				<VBox prefHeight="154.0" prefWidth="156.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button alignment="CENTER" mnemonicParsing="false"
+							onAction="#handleSubmit" prefHeight="57.0" prefWidth="100.0"
+							text="Submit" textAlignment="CENTER" />
+					</children>
+				</VBox>
+			</children>
+		</HBox>
+		<Pane layoutY="437.0" AnchorPane.bottomAnchor="0.0"
+			AnchorPane.leftAnchor="0.0" />
+		<HBox layoutX="388.0" layoutY="139.0" prefHeight="120.0"
+			prefWidth="221.0" AnchorPane.bottomAnchor="241.0"
+			AnchorPane.leftAnchor="388.0" AnchorPane.rightAnchor="91.0"
+			AnchorPane.topAnchor="139.0">
+			<children>
+				<VBox prefHeight="120.0" prefWidth="131.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button mnemonicParsing="false" onAction="#handleHazelnut"
+							text="Hazelnut" />
+					</children>
+				</VBox>
+				<VBox prefHeight="120.0" prefWidth="191.0">
+					<cursor>
+						<Cursor fx:constant="DEFAULT" />
+					</cursor>
+					<children>
+						<Button mnemonicParsing="false" onAction="#handleCaramel"
+							text="Caramel" />
+					</children>
+				</VBox>
+			</children>
+		</HBox>
+		<Button layoutX="425.0" layoutY="1.0" mnemonicParsing="false"
+			onAction="#handleCurrentOrder" text="Current Order" />
+		<Button layoutX="536.0" layoutY="1.0" mnemonicParsing="false"
+			onAction="#handleCurrentItems" text="Current Ingredient(s)" />
+	</children>
+</AnchorPane>

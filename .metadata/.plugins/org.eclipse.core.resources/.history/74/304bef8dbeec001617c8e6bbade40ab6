@@ -1,0 +1,11 @@
+package bankingsystem;
+
+public class Main {
+	public static void main(String[] args){
+		Bank bank = new Bank("First Bank", "An address");
+		Bank bank2 = new Bank("Another Bank", "Another address");
+		BankAccount account = new BankAccount(bank, 1, 1000);
+		Customer customer= new Customer("Bob", "Filligan");
+
+	}
+}

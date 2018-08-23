@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import impl.org.controlsfx.skin.*?>
+<?import org.controlsfx.glyphfont.*?>
+<?import org.controlsfx.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ch.makery.coffee.view.HighScoresController">
+	<children>
+		<SplitPane dividerPositions="0.29797979797979796" layoutX="50.0"
+			layoutY="95.0" prefHeight="450.0" prefWidth="600.0"
+			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<items>
+				<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="448.0"
+					prefWidth="148.0">
+					<children>
+						<TableView layoutX="14.0" layoutY="79.0" prefHeight="448.0"
+							prefWidth="174.0" AnchorPane.bottomAnchor="0.0"
+							AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+							AnchorPane.topAnchor="0.0">
+							<columns>
+								<TableColumn prefWidth="96.0" text="Name" />
+								<TableColumn prefWidth="77.0" text="Score" />
+							</columns>
+						</TableView>
+					</children>
+				</AnchorPane>
+				<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="447.0"
+					prefWidth="436.0" />
+			</items>
+		</SplitPane>
+	</children>
+</AnchorPane>

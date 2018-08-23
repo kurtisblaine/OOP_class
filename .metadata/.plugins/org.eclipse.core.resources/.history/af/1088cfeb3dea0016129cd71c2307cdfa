@@ -1,0 +1,58 @@
+package bankingsystem;
+
+public class BankAccount {
+	//start fields
+	private Customer customer;
+    private int acctNum;
+    private double amount;
+    private Bank bank;
+    //end fields
+    //start getters and setters
+	public Customer getCustomer() {
+		return customer;
+	}
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	public int getAcctNum() {
+		return acctNum;
+	}
+	public void setAcctNum(int acctNum) {
+		this.acctNum = acctNum;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public Bank getBank() {
+		return bank;
+	}
+	public void setBank(Bank bank) {
+		this.bank = bank;
+	}
+    //end getters and setters
+	
+	//constructor 
+	public BankAccount(Bank bank, int acctNum, double amount){
+		this.bank = bank;
+		this.acctNum = acctNum;
+		this.amount = amount;
+	}
+	//constructor
+	
+	public String getBankName(){
+		
+	}
+	
+	public String getBankNumber(){
+		
+	}
+	
+	public static void main(String[]args){
+		BankAccount b1 = new BankAccount(123234, 1009.09)
+	}//end main
+	
+	
+}//end class

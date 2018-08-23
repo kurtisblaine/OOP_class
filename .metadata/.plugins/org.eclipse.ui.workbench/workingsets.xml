@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493307509866_1" label="CoffeeGame" name="CoffeeGame">
+<item elementID="=CoffeeGame" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493310858440_2" label="CG" name="CG">
+<item elementID="=CoffeeGame" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484878985428_0" label="Window Working Set" name="Aggregate for window 1484878985427"/>
+<mruList name="CoffeeGame"/>
+<mruList name="CG"/>
+</workingSetManager>
